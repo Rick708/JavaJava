@@ -1,8 +1,7 @@
 public class Java {
   public static void main (String[] args){
     int num = 10;
-    System.out.println(num);
-
-    
+    int result = num++ % 4;
+    System.out.println(result);   
   }
 }

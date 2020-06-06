@@ -1,7 +1,8 @@
 public class Java {
-  public static void main (String[] args){
-    int num = 10;
-    int result = num++ % 4;
+  public static void main(String[] args){
+    int a = 10;
+    int b = 20;
+    boolean result = a < b;
     System.out.println(result);   
   }
 }
